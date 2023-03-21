@@ -19,7 +19,6 @@ export default function EditUser() {
     )
 
 
-
     const loadUser=async()=>{
         //http get request FROM DB TO UI
         const result=await axios.get(`http://localhost:8080/userManagement/getUser/${id}`)

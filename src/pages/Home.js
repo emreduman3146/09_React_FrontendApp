@@ -97,7 +97,7 @@ export default function Home() {
                 }
                 <tr>
                     <td colSpan="6" className="text-end">
-                      <button className="btn btn-outline-warning" disabled onClick={()=>deleteAllUsers()} style={{ marginRight: '55px' , width: '215px'}} >
+                      <button className="btn btn-outline-warning" onClick={()=>deleteAllUsers()} style={{ marginRight: '55px' , width: '215px'}} >
                         Delete All Users
                       </button>
                     </td>
